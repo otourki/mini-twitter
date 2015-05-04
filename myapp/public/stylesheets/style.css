@@ -1,0 +1,20 @@
+body {
+  color:blue;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.monimage {
+position:absolute;
+top: 70px;
+right :100px;
+}
+a {
+  color: #00B7FF;
+}
+.button{
+color : black;
+}
+.monimage:hover{
+background-image:url('images/logo.png');
+}
