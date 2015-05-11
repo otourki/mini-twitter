@@ -2,13 +2,6 @@ extends layout
 
 block content
   h1= title
-  p Hello guys i'm here for the tournament #{title}
-  a(href="google.com") Google
-  a(class='button', href='google.com') Google
-  ul Amis :
-    li Ali
-    li Fahd
-    li Taha
-  script.
-    console.log('hello');
-  img.monimage(src="/images/test.gif")
+  textarea(name='textarea', rows='10', cols='50') Saisir un texte ici.
+  input(type='submit', name='nom', value='twitter')
+
