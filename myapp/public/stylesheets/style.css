@@ -12,9 +12,4 @@ right :100px;
 a {
   color: #00B7FF;
 }
-.button{
-color : black;
-}
-.monimage:hover{
-background-image:url('images/logo.png');
-}
+
