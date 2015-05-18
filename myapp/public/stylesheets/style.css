@@ -1,14 +1,29 @@
 body {
-  color:blue;
+  color:white;
+  background-color: #0099FF;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-.monimage {
-position:absolute;
-top: 70px;
-right :100px;
+h1 {
+font-size : 56pt;
+text-align :center;
+margin-top: 5px;
 }
+.test{
+margin-left: auto;
+margin-right: auto;
+width: 250px;
+}
+p.boder{
+word-wrap:break-word;
+font-style : strong ;
+margin-left: auto;
+margin-right: auto;
+width: 250px;
+border : 2px solid black;
+}
+
 a {
   color: #00B7FF;
 }
