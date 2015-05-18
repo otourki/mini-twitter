@@ -4,23 +4,41 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
+input[type=submit]{
+margin-left: 60%;
+}
+#bord{
+width: 600px;
+border: 1px black ridge;
+margin: auto;
+box-shadow : 5px 5px 30px black;
+}
+textarea{
+width : 200 px ;
+margin-left: auto;
+margin-right: auto;
+}
+p{
+text-align : center;
+}
 h1 {
 font-size : 56pt;
 text-align :center;
 margin-top: 5px;
 }
 .test{
-margin-left: auto;
-margin-right: auto;
-width: 250px;
+margin:auto;
 }
 p.boder{
+background-color: white;
+
 word-wrap:break-word;
 font-style : strong ;
+color : black;
 margin-left: auto;
 margin-right: auto;
 width: 250px;
+border-radius : 5px;
 border : 2px solid black;
 }
 
