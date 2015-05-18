@@ -1,12 +1,26 @@
 extends layout
 
 block content
-  h1= title
-  form(action='/', method='POST')
-   textarea(name='tweet', rows='10', cols='50') Saisir un texte ici.
-   input(type='submit', name='nom', value='twitter',content='Sends')
-
-  ul
-   - each tweet in tweets
-     li= tweet
+  
+  #bord 
+   h1= title
+   script(type='text/javascript').
+     d = new Date();
+      document.write("<p>Aujourd'hui, nous sommes le : <span style='color:black;'>");
+      document.write(d.toLocaleDateString());
+      document.write("</span></p>");
+   div.test
+    form(action='/', method='POST')
+     p
+      label(for='pseudo') Votre pseudo :
+      |         
+      input#pseudo(type='text', name='pseudo', placeholder='Ex : Zozor',size='30', maxlength='10')
+      textarea(name='tweet',placeholder="Votre message." rows='10', cols='50')
+      input(type='submit', name='nom', value='twitter',content='Sends')
+    
+     ul
+      - each tweet in tweets
+        p=pseudo
+        p à écrit
+        p.boder= tweet
 
